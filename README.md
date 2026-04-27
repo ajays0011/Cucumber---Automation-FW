@@ -468,7 +468,3 @@ API scenarios tagged with `@api` skip WebDriver initialization entirely, making 
 The custom `FeatureCategoryPlugin` assigns feature file names as categories in Extent Reports, replacing the default tag-based grouping. This provides a cleaner, more meaningful view in the Category tab.
 
 ---
-
-## 📧 Contact
-
-Built with ❤️ for enterprise-grade test automation.
