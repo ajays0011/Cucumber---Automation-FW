@@ -49,9 +49,9 @@
 ├──────────────────────────────────────────────────────────────┤
 │                    CORE LAYER                                │
 │  ┌────────────┐  ┌────────────┐  ┌──────────────────┐        │
-│  │  Driver    │  │   Config   │  │    Utilities      │       │
-│  │  Factory   │  │   Reader   │  │  (Screenshot,     │       │
-│  │(ThreadLocal│  │ (Env-based)│  │   Retry, History) │       │
+│  │  Driver    │  │   Config   │  │    Utilities     │        │
+│  │  Factory   │  │   Reader   │  │  (Screenshot,    │        │
+│  │(ThreadLocal│  │ (Env-based)│  │   Retry, History │        │
 │  └────────────┘  └────────────┘  └──────────────────┘        │
 ├──────────────────────────────────────────────────────────────┤
 │                  REPORTING LAYER                             │
