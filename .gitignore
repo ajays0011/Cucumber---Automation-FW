@@ -1,0 +1,42 @@
+# ========================================
+# Build & IDE
+# ========================================
+target/
+*.class
+*.jar
+*.war
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*.swo
+
+# ========================================
+# Reports (regenerated each run)
+# ========================================
+allure-report/
+reports/extent-report/
+reports/screenshots/
+target/cucumber-reports/
+
+# ========================================
+# Logs
+# ========================================
+logs/
+*.log
+
+# ========================================
+# OS Files
+# ========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================================
+# Keep These (important for history)
+# ========================================
+!allure-results/history/
+!reports/execution-history.json

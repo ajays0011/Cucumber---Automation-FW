@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+        <theme>DARK</theme>
+        <documentTitle>Automation Exercise - Test Report</documentTitle>
+        <reportName>BDD Automation Test Report</reportName>
+        <encoding>UTF-8</encoding>
+        <protocol>https</protocol>
+        <offlineMode>true</offlineMode>
+    </configuration>
+</extentreports>

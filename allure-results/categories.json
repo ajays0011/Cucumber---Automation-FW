@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Product Defects",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Test Infrastructure Issues",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*TimeoutException.*|.*WebDriverException.*|.*NoSuchElementException.*"
+  },
+  {
+    "name": "Flaky Tests",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*retry.*",
+    "flaky": true
+  },
+  {
+    "name": "Skipped / Known Issues",
+    "matchedStatuses": ["skipped"]
+  }
+]

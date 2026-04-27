@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Exercise - Full Suite" parallel="methods" thread-count="4">
+
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="All Tests">
+        <classes>
+            <class name="com.automation.tests.runners.TestRunner"/>
+        </classes>
+    </test>
+</suite>
